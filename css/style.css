@@ -1,6 +1,10 @@
 body{
     margin:0px;
-    font-family: "Nunito"
+    font-family: 'Nunito' !important;
+}
+
+*{
+    font-family: inherit;
 }
 
 .Blue-BG {
