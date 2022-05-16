@@ -55,3 +55,19 @@ body {
     font-family: Nunito !important;
     word-break: break-word !important;
 }
+
+ul {
+    list-style-type: square;
+}
+
+ul > li > ul {
+    list-style-type: circle;
+}
+
+ul > li > ul > li > ul {
+    list-style-type: square;
+}
+
+ol li {
+    font-family: Nunito;
+}
