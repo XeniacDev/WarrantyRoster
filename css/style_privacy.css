@@ -1,11 +1,11 @@
+* {
+    font-family: inherit;
+}
+
 body {
     margin:0px;
     font-family: 'Nunito' !important;
     background-color: #1c53f4;
-}
-
-* {
-    font-family: inherit;
 }
 
 .white-bg {
