@@ -106,7 +106,7 @@ body {
     justify-items: center;
 }
 
-.iranian-rial-box {
+.zarinpal-box {
     grid-column: 1;
     grid-row: 1;
     margin-left: auto;
@@ -244,7 +244,7 @@ body {
     position: relative;
 }
 
-.chainlink-box {
+.link-box {
     grid-column: 2;
     grid-row: 3;
     width: 350px;
@@ -259,7 +259,7 @@ body {
     position: relative;
 }
 
-.shiba-box {
+.shib-box {
     grid-column: 1;
     grid-row: 4;
     width: 350px;
@@ -417,6 +417,7 @@ body {
 
 .crypto-minimum-amount {
     margin-right: auto;
+    text-transform: uppercase;
     font-family: Nunito;
     font-size: 16px;
     font-weight: bold;

@@ -55,14 +55,14 @@
     </div>
 
     <div class="fiat-grid">
-        <a class="iranian-rial-box" target="_blank" href="https://zarinp.al/liampay">
-            <img class="fiat-logo" src="res/fiat/ic_zarinpal.png" alt="Zarinpal">
+        <a class="zarinpal-box" target="_blank" href="https://zarinp.al/liampay">
+            <img class="fiat-logo" src="res/fiat/ic_fiat_zarinpal.png" alt="ZarinPal">
             <div class="fiat-text">Iranian Rial</div>
         </a>
 
         <!--<a class="paypal-box" target="_blank" href="https://zarinp.al/liampay">-->
         <a class="paypal-box" target="_blank">
-            <img class="fiat-logo" src="res/fiat/ic_paypal.png" alt="PayPal">
+            <img class="fiat-logo" src="res/fiat/ic_fiat_paypal.png" alt="PayPal">
             <!--<div class="fiat-text">PayPal</div>-->
             <div class="fiat-text">Coming Soon</div>
         </a>
@@ -77,207 +77,211 @@
     <div class="crypto-grid">
         <div class="btc-box">
             <div>
-                <img class="crypto-logo" src="res/crypto/ic_bitcoin.svg" alt="Bitcoin">
+                <img class="crypto-logo" src="res/crypto/ic_crypto_btc.svg" alt="Bitcoin">
                 <div class="crypto-title-and-subtitle-group">
-                    <div class="crypto-title">Bitcoin</div>
+                    <div class="crypto-title" id="title_btc">Bitcoin</div>
                     <div class="crypto-subtitle">(Legacy)</div>
                 </div>
             </div>
 
             <div class="crypto-divider"></div>
 
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code.png" alt="Bitcoin QR Code">
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_btc.svg" alt="Bitcoin QR Code">
 
             <div class="crypto-address-group">
-                <div id="address_btc" class="crypto-address">0x12524075227ab5333f585710cc39cdff8b60963b</div>
+                <div class="crypto-address" id="address_btc">1K6XQFmjgadocJ1B4MBTCVtyuoW44qGNzv</div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_btc')">
+                     onclick="copyAddressToClipboard('address_btc','title_btc')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0003 BTC</div>
+                <div class="crypto-minimum-amount">0.0004 BTC</div>
             </div>
         </div>
 
         <div class="eth-box">
             <div>
-                <img class="crypto-logo" src="res/crypto/ic_ethereum.svg" alt="Ethereum">
+                <img class="crypto-logo" src="res/crypto/ic_crypto_eth.svg" alt="Ethereum">
                 <div class="crypto-title-group">
-                    <div class="crypto-title">Ethereum</div>
+                    <div class="crypto-title" id="title_eth">Ethereum</div>
                 </div>
             </div>
 
             <div class="crypto-divider"></div>
 
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code.png" alt="Ethereum QR Code">
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_eth.svg" alt="Ethereum QR Code">
 
             <div class="crypto-address-group">
-                <div id="address_eth" class="crypto-address">0x12524075227ab5333f585710cc39cdff8b60963b</div>
+                <div class="crypto-address" id="address_eth">0x12524075227ab5333f585710cc39cdff8b60963b</div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_eth')">
+                     onclick="copyAddressToClipboard('address_eth','title_eth')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0003 ETH</div>
+                <div class="crypto-minimum-amount">0.001 ETH</div>
             </div>
         </div>
 
         <div class="dot-box">
             <div>
-                <img class="crypto-logo" src="res/crypto/ic_polkadot.svg" alt="Polkadot">
+                <img class="crypto-logo" src="res/crypto/ic_crypto_dot.svg" alt="Polkadot">
                 <div class="crypto-title-group">
-                    <div class="crypto-title">Polkadot</div>
+                    <div class="crypto-title" id="title_dot">Polkadot</div>
                 </div>
             </div>
 
             <div class="crypto-divider"></div>
 
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code.png" alt="Polkadot QR Code">
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_dot.svg" alt="Polkadot QR Code">
 
             <div class="crypto-address-group">
-                <div id="address_dot" class="crypto-address">0x12524075227ab5333f585710cc39cdff8b60963b</div>
+                <div class="crypto-address" id="address_dot">14Pt51kyE6igU843z48nnuJWDAFcdS6Ua5ZL7XJiKERSoTvP</div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_dot')">
+                     onclick="copyAddressToClipboard('address_dot','title_dot')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0003 BTC</div>
+                <div class="crypto-minimum-amount">0 DOT</div>
             </div>
         </div>
 
         <div class="ada-box">
             <div>
-                <img class="crypto-logo" src="res/crypto/ic_cardano.svg" alt="Cardano">
+                <img class="crypto-logo" src="res/crypto/ic_crypto_ada.svg" alt="Cardano">
                 <div class="crypto-title-group">
-                    <div class="crypto-title">Cardano</div>
+                    <div class="crypto-title" id="title_ada">Cardano</div>
                 </div>
             </div>
 
             <div class="crypto-divider"></div>
 
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code.png" alt="Cardano QR Code">
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_ada.svg" alt="Cardano QR Code">
 
             <div class="crypto-address-group">
-                <div id="address_ada" class="crypto-address">0x12524075227ab5333f585710cc39cdff8b60963b</div>
+                <div class="crypto-address" id="address_ada">
+                    addr1vx0f8vtccx50qmvlcteetwcdhxnc9787vymsf9037u4fnecgr9a4u
+                </div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_ada')">
+                     onclick="copyAddressToClipboard('address_ada','title_ada')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0003 BTC</div>
+                <div class="crypto-minimum-amount">0 ADA</div>
             </div>
         </div>
 
         <div class="usdt-box">
             <div>
-                <img class="crypto-logo" src="res/crypto/ic_tether.svg" alt="Tether">
+                <img class="crypto-logo" src="res/crypto/ic_crypto_usdt.svg" alt="Tether">
                 <div class="crypto-title-and-subtitle-group">
-                    <div class="crypto-title">Tether</div>
+                    <div class="crypto-title" id="title_usdt">Tether</div>
                     <div class="crypto-subtitle">(TRC20)</div>
                 </div>
             </div>
 
             <div class="crypto-divider"></div>
 
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code.png" alt="Tether QR Code">
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_usdt.svg" alt="Tether QR Code">
 
             <div class="crypto-address-group">
-                <div id="address_tether" class="crypto-address">TCRpzcHyKzotgGzo2UbQCZd6fQgohhPFDK</div>
+                <div class="crypto-address" id="address_tether">TCzXkGRaS5h9yr7WX2TEAgsCZDVqR4BDxv</div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_tether')">
+                     onclick="copyAddressToClipboard('address_tether','title_usdt')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0003 BTC</div>
+                <div class="crypto-minimum-amount">0.5 USDT</div>
             </div>
         </div>
 
-        <div class="chainlink-box">
+        <div class="link-box">
             <div>
-                <img class="crypto-logo" src="res/crypto/ic_chainlink.svg" alt="Chainlink">
-                <div class="crypto-title-group">
-                    <div class="crypto-title">Chainlink</div>
+                <img class="crypto-logo" src="res/crypto/ic_crypto_link.svg" alt="Chainlink">
+                <div class="crypto-title-and-subtitle-group">
+                    <div class="crypto-title" id="title_link">Chainlink</div>
+                    <div class="crypto-subtitle">(ERC20)</div>
                 </div>
             </div>
 
             <div class="crypto-divider"></div>
 
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code.png" alt="Chainlink QR Code">
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_link.svg" alt="Chainlink QR Code">
 
             <div class="crypto-address-group">
-                <div id="address_chainlink" class="crypto-address">0x12524075227ab5333f585710cc39cdff8b60963b</div>
+                <div class="crypto-address" id="address_chainlink">0x12524075227ab5333f585710cc39cdff8b60963b</div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_chainlink')">
+                     onclick="copyAddressToClipboard('address_chainlink','title_link')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0003 BTC</div>
+                <div class="crypto-minimum-amount">0 LINK</div>
             </div>
         </div>
 
-        <div class="shiba-box">
+        <div class="shib-box">
             <div>
-                <img class="crypto-logo" src="res/crypto/ic_shiba.svg" alt="Shiba Inu">
+                <img class="crypto-logo" src="res/crypto/ic_crypto_shib.svg" alt="Shiba Inu">
                 <div class="crypto-title-and-subtitle-group">
-                    <div class="crypto-title">Shiba Inu</div>
+                    <div class="crypto-title" id="title_shib">Shiba Inu</div>
                     <div class="crypto-subtitle">(BEP20/BSC)</div>
                 </div>
             </div>
 
             <div class="crypto-divider"></div>
 
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code.png" alt="Shiba Inu QR Code">
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_shib.svg" alt="Shiba Inu QR Code">
 
             <div class="crypto-address-group">
-                <div id="address_shiba" class="crypto-address">0x12524075227ab5333f585710cc39cdff8b60963b</div>
+                <div class="crypto-address" id="address_shiba">0x12524075227ab5333f585710cc39cdff8b60963b</div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_shiba')">
+                     onclick="copyAddressToClipboard('address_shiba','title_shib')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0003 BTC</div>
+                <div class="crypto-minimum-amount">0 SHIB</div>
             </div>
         </div>
 
         <div class="doge-box">
             <div>
-                <img class="crypto-logo" src="res/crypto/ic_doge.svg" alt="Dogecoin">
+                <img class="crypto-logo" src="res/crypto/ic_crypto_doge.svg" alt="Dogecoin">
                 <div class="crypto-title-group">
-                    <div class="crypto-title">Dogecoin</div>
+                    <div class="crypto-title" id="title_doge">Dogecoin</div>
                 </div>
             </div>
 
             <div class="crypto-divider"></div>
 
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code.png" alt="Dogecoin QR Code">
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_doge.svg" alt="Dogecoin QR Code">
 
             <div class="crypto-address-group">
-                <div id="address_doge" class="crypto-address">DRcF1f1SSJebd442sGWdkAT5kdjwqTWkUB</div>
+                <div class="crypto-address" id="address_doge">DJ1JJJ8HX9xdaXeEDX9S5f3FRkA3uoFdKM</div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_doge')">
+                     onclick="copyAddressToClipboard('address_doge','title_doge')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0003 Doge</div>
+                <div class="crypto-minimum-amount">5 DOGE</div>
             </div>
         </div>
     </div>
 
 </div>
 
-<div id="snackbar">Address successfully copied to clipboard.</div>
+<div id="snackbar"></div>
 
 <script>
-    function copyAddressToClipboard(cryptoAddressTextId) {
+    function copyAddressToClipboard(cryptoAddressTextId, cryptoTitleId) {
         address = document.getElementById(cryptoAddressTextId).textContent;
+        title = document.getElementById(cryptoTitleId).textContent;
 
         // Copy address to clipboard
         navigator.clipboard.writeText(address);
@@ -285,12 +289,23 @@
         // Show snackbar div
         var snackbarDiv = document.getElementById("snackbar");
 
+        // Set snackbar text
+        snackbarDiv.textContent = title + " address successfully copied to clipboard.";
+
         // Add the "show" class to div
         snackbarDiv.className= "show";
 
         // After 3 seconds, remove the show class from div
         setTimeout(function(){ snackbarDiv.className = snackbarDiv.className.replace("show", "") }, 3000);
     }
+
+
+
+
+
+
+
+
 
 
 
