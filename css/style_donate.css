@@ -174,7 +174,7 @@ body {
 .btc-box {
     grid-column: 1;
     grid-row: 1;
-    width: 350px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -188,7 +188,7 @@ body {
 .eth-box {
     grid-column: 2;
     grid-row: 1;
-    width: 350px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -202,7 +202,7 @@ body {
 .dot-box {
     grid-column: 1;
     grid-row: 2;
-    width: 350px;
+    width: 400px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -217,7 +217,7 @@ body {
 .ada-box {
     grid-column: 2;
     grid-row: 2;
-    width: 350px;
+    width: 400px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -232,7 +232,7 @@ body {
 .usdt-box {
     grid-column: 1;
     grid-row: 3;
-    width: 350px;
+    width: 400px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -247,7 +247,7 @@ body {
 .link-box {
     grid-column: 2;
     grid-row: 3;
-    width: 350px;
+    width: 400px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -262,7 +262,7 @@ body {
 .shib-box {
     grid-column: 1;
     grid-row: 4;
-    width: 350px;
+    width: 400px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -277,7 +277,7 @@ body {
 .doge-box {
     grid-column: 2;
     grid-row: 4;
-    width: 350px;
+    width: 400px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -377,6 +377,9 @@ body {
     line-height: 1;
     letter-spacing: normal;
     text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
     color: #000;
 }
 
