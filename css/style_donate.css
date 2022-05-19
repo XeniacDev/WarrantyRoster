@@ -351,9 +351,9 @@ body {
 }
 
 .crypto-qr-code {
-    width: 200px;
-    height: 200px;
-    margin-top: 16px;
+    width: 250px;
+    height: 250px;
+    margin-top: 4px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -361,7 +361,6 @@ body {
 .crypto-address-group {
     display: flex;
     align-items: baseline;
-    margin-top: 4px;
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -439,26 +438,25 @@ body {
 #snackbar {
     visibility: hidden; /* Hidden by default. Visible on click */
     min-width: 250px; /* Set a default minimum width */
-    margin-left: -125px; /* Divide value of min-width by 2 */
     background-color: #333; /* Dark Gray background color */
     color: #fff; /* White text color */
     text-align: center; /* Centered text */
-    border-radius: 2px; /* Rounded borders */
+    border-radius: 12px; /* Rounded borders */
     padding: 16px; /* Padding */
     position: fixed; /* Sit on top of the screen */
     z-index: 1; /* Add a z-index if needed */
     left: 50%; /* Center the snackbar */
     bottom: 30px; /* 30px from the bottom */
-    border-radius: 12px;
+    transform: translateX(-50%); /* Center snackbar horizontally */
 }
 
 /* Show the snackbar when clicking on a button (class added with JavaScript) */
 #snackbar.show {
     visibility: visible; /* Show the snackbar */
     /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
-    However, delay the fade out process for 2.5 seconds */
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    However, delay the fade out process for 3.0 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 3.0s;
+    animation: fadein 0.5s, fadeout 0.5s 3.0s;
 }
 
 /* Animations to fade the snackbar in and out */
