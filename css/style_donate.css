@@ -480,3 +480,441 @@ body {
     to {bottom: 0; opacity: 0;}
 }
 /* End of snackbar style */
+
+
+
+/* Beginning of small screen style */
+@media only screen and (max-width: 768px) {
+
+    body {
+        margin:0px;
+        font-family: 'Nunito' !important;
+        background-color: #1c53f4;
+        background-image: url('../res/background.jpg');
+        background-size: 150%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-blend-mode: hard-light;
+    }
+
+    .logo-xeniac {
+        float: left;
+        height: 44px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .links-box {
+        display: flex;
+        float: right;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 6px;
+        padding-right: 6px;
+        background-color: #def4fd;
+        border-radius: 8px;
+    }
+
+    .links-icon {
+        display: flex;
+        height: 20px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .title {
+        margin-top: 100px;
+        margin-left: 68px;
+        margin-right: 68px;
+        text-transform: uppercase;
+        font-family: Nunito;
+        font-size: 20px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .subtitle {
+        margin-top: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+
+    .white-bg {
+        overflow: hidden;
+        width: 100%;
+        margin: 40px 0px 0px 0px;
+        background-color: #fff;
+        border-top-left-radius: 32px;
+        border-top-right-radius: 32px;
+    }
+
+    .donation-title {
+        margin-top: 32px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-transform: uppercase;
+        font-family: Nunito;
+        font-size: 20px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #00144f;
+    }
+
+    .fiat-grid {
+        display: grid;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        justify-items: center;
+    }
+
+    .zarinpal-box {
+        grid-column: 1;
+        grid-row: 1;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .paypal-box {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        background-color: #f3f3f3; /* change to #fff after adding PayPal*/
+        mix-blend-mode: luminosity; /*remove after adding PayPal*/
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .fiat-logo {
+        width: 125px;
+        height: 125px;
+        margin-left: 12px;
+        margin-right: 12px;
+        border-radius: 32px;
+    }
+
+    .fiat-text {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+    .divider {
+        height: 4px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #e9e9e9;
+    }
+
+    .crypto-grid {
+        display: grid;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        justify-items: center;
+    }
+
+    .btc-box {
+        grid-column: 1;
+        grid-row: 1;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .eth-box {
+        grid-column: 1;
+        grid-row: 2;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .dot-box {
+        grid-column: 1;
+        grid-row: 3;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .ada-box {
+        grid-column: 1;
+        grid-row: 4;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .usdt-box {
+        grid-column: 1;
+        grid-row: 5;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .link-box {
+        grid-column: 1;
+        grid-row: 6;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .shib-box {
+        grid-column: 1;
+        grid-row: 7;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .doge-box {
+        grid-column: 1;
+        grid-row: 8;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .crypto-logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 32px;
+        height: 32px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+    .crypto-title-and-subtitle-group {
+        margin-top: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .crypto-title-group {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .crypto-title {
+        text-transform: uppercase;
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+    .crypto-subtitle {
+        margin-top: 4px;
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+
+    .crypto-divider {
+        width: 95%;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e9e9e9;
+        display:inline-block;
+    }
+
+    .crypto-qr-code {
+        width: 200px;
+        height: 200px;
+        margin-top: 4px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .crypto-address-group {
+        display: flex;
+        align-items: baseline;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .crypto-address {
+        margin-top: auto;
+        margin-left: auto;
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: 200;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        color: #000;
+    }
+
+    .crypto-address-copy {
+        width: 16px;
+        height: 16px;
+        margin-left: 4px;
+        margin-right: auto;
+        cursor: pointer;
+    }
+
+    .crypto-minimum-box {
+        display: flex;
+        align-items: baseline;
+        width: 100%;
+        height: 40px;
+        margin-top: 12px;
+        background-color: rgba(255, 52, 66, 0.1);
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+    }
+
+    .crypto-minimum-title {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        margin-left: auto;
+        margin-right: 4px;
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ff3442;
+    }
+
+    .crypto-minimum-amount {
+        margin-right: auto;
+        text-transform: uppercase;
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ff3442;
+    }
+}
+/* End of small screen style */
