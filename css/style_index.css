@@ -16,17 +16,16 @@ body {
 }
 
 .title {
-    margin-top: 164px;
     margin-left: 80px;
     margin-right: 80px;
     text-transform: uppercase;
     font-family: Nunito;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1;
     letter-spacing: 1px;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
