@@ -1,0 +1,32 @@
+* {
+    font-family: 'Nunito' !important;
+}
+
+body {
+    margin:0px;
+    font-family: 'Nunito' !important;
+    background-color: #1c53f4;
+}
+
+.white-bg {
+    margin: 3%;
+    padding: 36px;
+    border-radius: 24px 24px 24px 24px;
+    background-color: #fff;
+}
+
+.title {
+    margin-top: 164px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-transform: uppercase;
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+}
