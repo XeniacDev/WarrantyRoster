@@ -29,3 +29,39 @@ body {
     text-align: center;
     color: #000;
 }
+
+.privacy-policy {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 62px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: #1c53f4;
+}
+
+a:link {
+    color: #1c53f4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1c53f4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1c53f4;
+    text-decoration: none;
+}
+
+a:active {
+    color: #00144F;
+    text-decoration: none;
+}
